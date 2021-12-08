@@ -41,6 +41,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2707232F27614E4000BF1BEF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5AD16275E7A40003CEABC /* TaskListViewController.swift */,
+				A8D5AD29275E80F2003CEABC /* TaskViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		2707233027614E5600BF1BEF /* App */ = {
+			isa = PBXGroup;
+			children = (
+				A8D5AD12275E7A40003CEABC /* AppDelegate.swift */,
+				A8D5AD14275E7A40003CEABC /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
 		A8D5AD06275E7A40003CEABC = {
 			isa = PBXGroup;
 			children = (
@@ -60,10 +78,8 @@
 		A8D5AD11275E7A40003CEABC /* CoreDataDemo */ = {
 			isa = PBXGroup;
 			children = (
-				A8D5AD12275E7A40003CEABC /* AppDelegate.swift */,
-				A8D5AD14275E7A40003CEABC /* SceneDelegate.swift */,
-				A8D5AD16275E7A40003CEABC /* TaskListViewController.swift */,
-				A8D5AD29275E80F2003CEABC /* TaskViewController.swift */,
+				2707233027614E5600BF1BEF /* App */,
+				2707232F27614E4000BF1BEF /* ViewControllers */,
 				27FB47D02760C4E300D87361 /* StorageManager.swift */,
 				A8D5AD1E275E7A41003CEABC /* Assets.xcassets */,
 				A8D5AD20275E7A41003CEABC /* LaunchScreen.storyboard */,
